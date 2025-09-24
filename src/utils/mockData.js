@@ -1,0 +1,231 @@
+export const mockServices = [
+  {
+    id: 1,
+    name: "Plumbing Repair",
+    category: "plumbing",
+    description: "Professional plumbing services for leaks, clogs, and installations",
+    basePrice: 85,
+    duration: "1-2 hours",
+    rating: 4.8,
+    reviewCount: 234,
+    image: "https://images.pexels.com/photos/8293778/pexels-photo-8293778.jpeg?w=400&h=250&fit=crop"
+  },
+  {
+    id: 2,
+    name: "Electrical Repair",
+    category: "electrical",
+    description: "Licensed electricians for wiring, outlets, and electrical installations",
+    basePrice: 95,
+    duration: "1-3 hours",
+    rating: 4.7,
+    reviewCount: 189,
+    image: "https://images.pexels.com/photos/257736/pexels-photo-257736.jpeg?w=400&h=250&fit=crop"
+  },
+  {
+    id: 3,
+    name: "House Cleaning",
+    category: "cleaning",
+    description: "Deep cleaning services for homes and offices",
+    basePrice: 120,
+    duration: "2-4 hours",
+    rating: 4.9,
+    reviewCount: 567,
+    image: "https://images.pexels.com/photos/4239021/pexels-photo-4239021.jpeg?w=400&h=250&fit=crop"
+  },
+  {
+    id: 4,
+    name: "Appliance Repair",
+    category: "appliance",
+    description: "Expert repair for washing machines, dryers, refrigerators, and more",
+    basePrice: 75,
+    duration: "1-2 hours",
+    rating: 4.6,
+    reviewCount: 145,
+    image: "https://images.pexels.com/photos/5691659/pexels-photo-5691659.jpeg?w=400&h=250&fit=crop"
+  },
+  {
+    id: 5,
+    name: "Interior Painting",
+    category: "painting",
+    description: "Professional interior painting services with quality materials",
+    basePrice: 200,
+    duration: "4-8 hours",
+    rating: 4.7,
+    reviewCount: 98,
+    image: "https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?w=400&h=250&fit=crop"
+  },
+  {
+    id: 6,
+    name: "Garden Maintenance",
+    category: "gardening",
+    description: "Lawn care, pruning, and garden maintenance services",
+    basePrice: 65,
+    duration: "2-3 hours",
+    rating: 4.5,
+    reviewCount: 123,
+    image: "https://images.pexels.com/photos/1301856/pexels-photo-1301856.jpeg?w=400&h=250&fit=crop"
+  },
+  {
+    id: 7,
+    name: "HVAC Service",
+    category: "hvac",
+    description: "Heating and cooling system repair and maintenance",
+    basePrice: 110,
+    duration: "1-3 hours",
+    rating: 4.8,
+    reviewCount: 276,
+    image: "https://images.pexels.com/photos/8142070/pexels-photo-8142070.jpeg?w=400&h=250&fit=crop"
+  },
+  {
+    id: 8,
+    name: "Carpet Cleaning",
+    category: "cleaning",
+    description: "Professional carpet and upholstery cleaning services",
+    basePrice: 80,
+    duration: "2-3 hours",
+    rating: 4.6,
+    reviewCount: 187,
+    image: "https://images.pexels.com/photos/4239091/pexels-photo-4239091.jpeg?w=400&h=250&fit=crop"
+  }
+];
+
+export const mockProviders = [
+  {
+    id: 1,
+    name: "Mike Smith",
+    speciality: "Master Plumber",
+    rating: 4.9,
+    reviewCount: 156,
+    hourlyRate: 85,
+    location: "Downtown Area",
+    experience: "12 years",
+    availability: "available",
+    isVerified: true,
+    bio: "Experienced plumber with over 12 years in residential and commercial plumbing.",
+    skills: ["Pipe Repair", "Water Heaters", "Drain Cleaning", "Emergency Services"],
+    avatar: "https://images.pexels.com/photos/874158/pexels-photo-874158.jpeg?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    id: 2,
+    name: "Sarah Johnson",
+    speciality: "Licensed Electrician",
+    rating: 4.8,
+    reviewCount: 203,
+    hourlyRate: 95,
+    location: "North Side",
+    experience: "8 years",
+    availability: "available",
+    isVerified: true,
+    bio: "Certified electrician specializing in residential electrical work and smart home installations.",
+    skills: ["Wiring", "Panel Upgrades", "Smart Home", "Lighting Installation"],
+    avatar: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    id: 3,
+    name: "David Chen",
+    speciality: "Home Cleaning Specialist",
+    rating: 4.9,
+    reviewCount: 412,
+    hourlyRate: 60,
+    location: "City Center",
+    experience: "6 years",
+    availability: "busy",
+    isVerified: true,
+    bio: "Professional cleaner with attention to detail and eco-friendly cleaning solutions.",
+    skills: ["Deep Cleaning", "Move-in/out", "Eco-friendly", "Office Cleaning"],
+    avatar: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    id: 4,
+    name: "Lisa Williams",
+    speciality: "Appliance Technician",
+    rating: 4.7,
+    reviewCount: 89,
+    hourlyRate: 75,
+    location: "West End",
+    experience: "10 years",
+    availability: "available",
+    isVerified: true,
+    bio: "Expert in appliance repair and maintenance for all major brands.",
+    skills: ["Washers & Dryers", "Refrigerators", "Dishwashers", "Warranty Work"],
+    avatar: "https://images.pexels.com/photos/324658/pexels-photo-324658.jpeg?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    id: 5,
+    name: "Tom Wilson",
+    speciality: "Professional Painter",
+    rating: 4.6,
+    reviewCount: 134,
+    hourlyRate: 70,
+    location: "South Side",
+    experience: "15 years",
+    availability: "available",
+    isVerified: true,
+    bio: "Experienced painter specializing in interior and exterior residential painting.",
+    skills: ["Interior Painting", "Exterior Painting", "Color Consultation", "Wallpaper Removal"],
+    avatar: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?w=150&h=150&fit=crop&crop=face"
+  },
+  {
+    id: 6,
+    name: "Maria Garcia",
+    speciality: "Garden & Landscape",
+    rating: 4.8,
+    reviewCount: 167,
+    hourlyRate: 65,
+    location: "Suburbs",
+    experience: "9 years",
+    availability: "available",
+    isVerified: true,
+    bio: "Passionate gardener with expertise in landscape design and maintenance.",
+    skills: ["Lawn Care", "Plant Care", "Landscape Design", "Tree Pruning"],
+    avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?w=150&h=150&fit=crop&crop=face"
+  }
+];
+
+export const mockBookings = [
+  {
+    id: 1,
+    service: "Plumbing Repair",
+    provider: "Mike Smith",
+    providerId: 1,
+    customerId: 1,
+    customerName: "John Doe",
+    date: "2024-01-15",
+    time: "10:00",
+    status: "completed",
+    totalAmount: 120,
+    address: "123 Main St, City",
+    description: "Fix leaky kitchen faucet",
+    serviceType: "plumbing"
+  },
+  {
+    id: 2,
+    service: "House Cleaning",
+    provider: "David Chen",
+    providerId: 3,
+    customerId: 1,
+    customerName: "John Doe",
+    date: "2024-01-20",
+    time: "14:00",
+    status: "pending",
+    totalAmount: 150,
+    address: "123 Main St, City",
+    description: "Deep cleaning for 3-bedroom house",
+    serviceType: "cleaning"
+  },
+  {
+    id: 3,
+    service: "Electrical Repair",
+    provider: "Sarah Johnson",
+    providerId: 2,
+    customerId: 2,
+    customerName: "Jane Smith",
+    date: "2024-01-18",
+    time: "09:00",
+    status: "in-progress",
+    totalAmount: 95,
+    address: "456 Oak Ave, City",
+    description: "Install new outlet in bedroom",
+    serviceType: "electrical"
+  }
+];
